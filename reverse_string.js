@@ -12,7 +12,7 @@ console.log(reverse("Iryna!"))
 
 const reverse1 = function (str) {
     let newStr = ''
-    for (let i=str.length-1; i>=0; i--) {
+    for (let i of str) {
       newStr = newStr + str[i]
   }
    return newStr
